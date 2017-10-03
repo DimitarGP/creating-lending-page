@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans','sans-serif';
+    width: 1060px;
+    height: 100vh;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+header{
+    background: url("img/header-background.jpg") no-repeat center;
+    height: calc(100vh - 60px);
+    display: flex;
+    position: relative;
+}
+
+header > h3{
+    font-family: 'Kreon',serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.9em;
+    display: inline-block;
+    padding: 20px;
+}
+header ul,
+header h3{
+    display: inline-block;
+}
+
+
+header nav li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 40px 5px 10px;
+}
+
+header nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+    background: #f4474f;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.introduction{
+    color: white;
+    position: absolute;
+    top: 300px;
+    padding: 10px;
+    margin: 10px;
+    width: 480px;
+}
+
+.introduction > span{
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+.logo-text{
+    font-family: 'Kreon', serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.data-quality{
+    display: flex;
+    width: 100%;
+    height: 160px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.portfolio{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f4474f ;
+}
+
+.result{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #31c7d8;
+}
+
+.portfolio div > h3,
+.result div > h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.marketing-results{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.marketing-results > h2{
+    font-family: 'Kreon', serif;
+    font-size: 32px;
+    padding: 10px 10px;
+
+}
+
+.marketing-results > p{
+    padding: 10px 10px;
+    width: 55%;
+    opacity: .4;
+}
+
+.departments{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.departments article{
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #dddddd;
+}
+
+.departments article:nth-child(3){
+    border-right: none;
+}
+
+.departments img,
+.departments h3,
+.departments p{
+    margin-bottom: 15px;
+}
+
+.finish-contraction{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    box-sizing: border-box;
+    background: #f4474f;
+    margin-bottom: 20px;
+}
+
+.finish-contraction p{
+    font-family: 'Kreon', serif;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.finish-contraction button{
+    background: #ffffff;
+    color: #f4474f;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.finish-contraction button:hover{
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
